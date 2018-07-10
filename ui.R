@@ -7,6 +7,11 @@ shinyUI(fluidPage(
   fluidRow(
     
     column(2,
+      
+      tags$img(src = 'mrc_logo.png'),
+      
+      tags$hr(),
+      
       h4('Voronoi Creator'),
       
       tags$ol(

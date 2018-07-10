@@ -79,8 +79,8 @@ $(document).ready( function() {
   });
   
   map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 38, lng: -90},
-    zoom: 6
+    center: {lat: 0, lng: 0},
+    zoom: 2
   });
   
   map.addListener('click', function(e) {
