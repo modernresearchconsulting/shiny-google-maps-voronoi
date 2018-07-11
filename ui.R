@@ -8,7 +8,10 @@ shinyUI(fluidPage(
     
     column(2,
       
-      tags$img(src = 'mrc_logo.png'),
+      tags$a(
+        href = 'https://modernresearchconsulting.com',
+        tags$img(src = 'mrc_logo.png')
+      ),
       
       tags$hr(),
       
